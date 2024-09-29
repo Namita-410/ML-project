@@ -15,3 +15,41 @@ Data Source:
 Dataset - Dataset taken from AlmaBetter
 Input Files:
 data_YesBank_StockPrices.csv - It contains monthly observation of stock parameter such as open, high , low and close.
+Step 1: Data Collection
+Collect the historical stock prices of Yes Bank from January 2005 to September 2020. Include variables such as opening price, highest price, lowest price, and closing price and date
+
+Step 2: Data Cleaning and Preprocessing
+Clean the dataset by removing any missing values, outliers, or errors. Preprocess the dataset by scaling or normalizing the features as necessary.
+
+Step 3: Regression Model Building
+Divide the dataset into training and testing sets. Implement Multiple Linear Regression ,Lasso Regression, Ridge Regression, Elastic net Regression, knn regressor and Random forest regressor models to predict the closing price of Yes Bank stock. Tune the models by adjusting the hyperparameters to optimize performance.
+
+Step 4: Model Evaluation
+Evaluate the models' performance using root mean squared error (RMSE) and mean absolute error (MAE) metrics. Compare the performance of the models to determine which one performs better.
+
+Step 5: Results and Conclusion
+Present the results of the regression analysis. Discuss the implications of the results and their potential impact on investors. Provide conclusions and suggestions for future research.
+
+--------------------------------------------------------------------------------------------
+
+🛠️ Builds with
+Python
+
+NumPy
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+scikit-learn
+
+SciPy
+
+Plotly
+
+GoogleColab
+
+📜 Conclusion
+After implementing various regression model and analyzing their respective performance matrics we came to the conclusion that the "KNN Regressor" is top performing models with respect to all the matrics. But when we look for the cross validation score and other factores such as time complexity
