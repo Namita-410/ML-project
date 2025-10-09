@@ -1,4 +1,4 @@
-# ML-project
+# Yes Bank-Closing price Prediction
 This repository contains the code and dataset for predicting the closing price of Yes Bank stock using regression analysis. The project uses a dataset containing historical stock prices of Yes Bank from 2005 to 2020
 --------------------------------------------------------------------------------------------
 
